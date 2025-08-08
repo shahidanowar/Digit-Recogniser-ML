@@ -107,7 +107,7 @@ The CNN model consists of:
 
 - **Training Time**: ~2-3 minutes on CPU
 - **Test Accuracy**: ~98%
-- **Model Size**: ~500KB
+- **Model Size**: ~4000KB/4MB
 - **Prediction Time**: <100ms per digit
 
 ## Troubleshooting
@@ -121,47 +121,8 @@ The CNN model consists of:
    - Try refreshing the browser page
    - Check that all dependencies are installed
 
-3. **Low prediction accuracy**
-   - Draw digits clearly and centered
-   - Use white strokes on black background
-   - Make sure digits are reasonably sized
-
-4. **Installation issues**
-   - Try updating pip: `pip install --upgrade pip`
-   - Use virtual environment for clean installation
-
-## Extending the Project
-
-### Possible Improvements
-
-1. **Model Enhancement**
-   - Add more convolutional layers
-   - Implement data augmentation
-   - Add dropout for regularization
-   - Experiment with different optimizers
-
-2. **Interface Improvements**
-   - Add confidence scores display
-   - Show prediction probabilities for all digits
-   - Add clear button for canvas
-   - Implement batch prediction
-
-3. **Additional Features**
-   - Save and load custom drawings
-   - Add preprocessing options
-   - Implement different model architectures
-   - Add model comparison features
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contributing
-
-Feel free to submit issues, feature requests, or pull requests to improve this project.
-
 ## Acknowledgments
 
 - MNIST dataset by Yann LeCun and Corinna Cortes
-- TensorFlow and Keras teams for the deep learning framework
-- Streamlit team for the web framework
+- TensorFlow and Keras for the deep learning framework
+- Streamlit for the web framework
